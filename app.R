@@ -33,7 +33,7 @@ suppressMessages({
   library(DBI)
 })
 
-source("lib/db_schema.R")
+#source("lib/db_schema.R")
 
 # Load drc gracefully - if unavailable, point-based fallback is used automatically
 DRC_AVAILABLE <- tryCatch({
